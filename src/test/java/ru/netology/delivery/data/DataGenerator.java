@@ -17,9 +17,9 @@ public class DataGenerator {
     }
 
     public static String generateCity() {
-        String[] cities = new String[]{"Москва", "Санкт-Петербург", "Новосибирск", "Томск", "Омск", "Казань",
+        String[] city = new String[]{"Москва", "Санкт-Петербург", "Новосибирск", "Томск", "Омск", "Казань",
                 "Мурманск", "Кемерово", "Калининград"};
-        return cities[new Random().nextInt(cities.length)];
+        return city[new Random().nextInt(city.length)];
     }
 
     public static String generateName(String locale) {
